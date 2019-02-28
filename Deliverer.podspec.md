@@ -1,0 +1,18 @@
+Pod::Spec.new do |s|  
+    s.name              = 'Deliverer'
+    s.version           = '1.0.0'
+    s.summary           = 'An easy to use framework for streaming in the apple ecosystem'
+    s.homepage          = 'http://appssemble.com/'
+
+    s.author            = { 'Name' => 'appssemble' }
+    s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
+
+    s.platform          = :ios
+    s.source            = { :http => 'https://github.com/appssemble/Deliverer-Swift/raw/master/Deliverer.framework.zip' }
+
+    s.ios.deployment_target = '10.0'
+    s.ios.vendored_frameworks = 'Deliverer.framework'
+
+    s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
+    s.user_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
+end
