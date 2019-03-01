@@ -1,0 +1,11 @@
+framework module Deliverer {
+  umbrella header "Deliverer.h"
+
+  export *
+  module * { export * }
+}
+
+module Deliverer.Swift {
+    header "Deliverer-Swift.h"
+    requires objc
+}
