@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'Deliverer'
-    s.version           = '1.0.0'
+    s.version           = '1.0.1'
     s.summary           = 'An easy to use framework for streaming in the apple ecosystem'
     s.homepage          = 'http://appssemble.com/'
 
