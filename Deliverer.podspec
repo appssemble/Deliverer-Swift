@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
     s.platform          = :ios
-    s.source            = { :git => "https://github.com/appssemble/Deliverer-Swift.git" }
+    s.source            = { :git => "https://github.com/appssemble/Deliverer-Swift.git", :submodules => true }
 
     s.ios.deployment_target = '10.0'
     s.ios.vendored_frameworks = 'submodule/Deliverer.framework'
