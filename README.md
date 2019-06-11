@@ -12,7 +12,7 @@ Easy to use Swift library for live streaming to social media and content platfor
 $ gem install cocoapods
 ```
 
-To integrate stellar SDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate deliverer into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 use_frameworks!
